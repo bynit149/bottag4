@@ -1,11 +1,11 @@
 List Command Standart :
 - me
-- speed
+- sp
 - spic
 - scover
-- tagall
-- ceksider
-- offread
+- tag
+- set
+- read
 
 Required :
 - Hacker Keyboard (PlayStore)
