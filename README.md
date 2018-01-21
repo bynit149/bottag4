@@ -4,8 +4,8 @@ List Command Standart :
 - spic
 - scover
 - แทก
-- set
-- read
+- นับ
+- อ่าน
 
 Required :
 - Hacker Keyboard (PlayStore)
@@ -18,8 +18,8 @@ Instalasi di termux :
 - pip3 install rsa
 - pip3 install requests
 - pip3 install thrift
-- git clone http://github.com/tankeng/bottag2/
+- git clone http://github.com/tankeng/bottag3/
 
 Run on termux :
-- cd bottag2
+- cd bottag3
 - python sb.py
