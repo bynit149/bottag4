@@ -122,7 +122,7 @@ while True:
                                     for m in range(401, len(nama)):
                                         nm5 += [nama[m]]
                                     client.mention(msg.to, nm5)             
-                                client.sendText(receiver, "Members :"+str(jml))
+                                client.sendText(receiver, "ห้องนี้มีสมาชิกทั้งหมด :"+str(jml))
                             elif text.lower() == 'set':
                                 try:
                                     del cctv['point'][msg.to]
