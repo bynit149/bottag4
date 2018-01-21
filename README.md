@@ -3,7 +3,7 @@ List Command Standart :
 - sp
 - spic
 - scover
-- tag
+- แทก
 - set
 - read
 
