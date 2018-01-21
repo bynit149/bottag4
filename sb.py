@@ -53,7 +53,7 @@ while True:
                                 start = time.time()
                                 client.sendText(receiver, "TestSpeed")
                                 elapsed_time = time.time() - start
-                                client.sendText(receiver, "%sdetik" % (elapsed_time))
+                                client.sendText(receiver, "%sseconds" % (elapsed_time))
                             elif 'spic' in text.lower():
                                 try:
                                     key = eval(msg.contentMetadata["MENTION"])
