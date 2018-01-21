@@ -123,7 +123,7 @@ while True:
                                         nm5 += [nama[m]]
                                     client.mention(msg.to, nm5)             
                                 client.sendText(receiver, "ห้องนี้มีสมาชิกทั้งหมด :"+str(jml))
-                            elif text.lower() == 'set':
+                            elif text.lower() == 'นับ':
                                 try:
                                     del cctv['point'][msg.to]
                                     del cctv['sidermem'][msg.to]
@@ -133,12 +133,12 @@ while True:
                                 cctv['point'][msg.to] = msg.id
                                 cctv['sidermem'][msg.to] = ""
                                 cctv['cyduk'][msg.to]=True
-                            elif text.lower() == 'read':
+                            elif text.lower() == 'อ่าน':
                                 if msg.to in cctv['point']:
                                     cctv['cyduk'][msg.to]=False
                                     client.sendText(msg.to, cctv['sidermem'][msg.to])
                                 else:
-                                    client.sendText(msg.to, "พิมพ์คำว่า Set ก่อน")
+                                    client.sendText(msg.to, "พิมพ์คำว่า นับ ก่อน")
                 except Exception as e:
                     client.log("[SEND_MESSAGE] ERROR : " + str(e))
 
