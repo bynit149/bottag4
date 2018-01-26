@@ -151,7 +151,7 @@ while True:
                                 pass
                             else:
                                 cctv['sidermem'][op.param1] += "\n~ " + Name
-                                pref=['พวกแอบ..','พวกแอบ..','พวกแอบ..','พวกแอบ..','พวกแอบ..','พวกแอบ..','พวกแอบ..']
+                                pref=['กำลังอ่าน..','พวกแอบ..','พวกแอบ..','กำลังอ่าน..','กำลังอ่าน..','กำลังอ่าน..','กำลังอ่าน..']
                                 client.sendText(op.param1, str(random.choice(pref))+' '+Name)
                         else:
                             pass
